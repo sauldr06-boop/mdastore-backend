@@ -267,7 +267,7 @@ function buildWelcomeHTML(userName) {
               <p style="margin:0 0 8px; font-size:28px;">⬡</p>
               <h1 style="margin:0; font-size:22px; font-weight:900; letter-spacing:4px;
                           color:#fff; text-transform:uppercase;">
-                NEXUS<span style="color:#00f5ff;">GAMING</span>
+                MDASTORE<span style="color:#00f5ff;">GAMING</span>
               </h1>
             </td>
           </tr>
