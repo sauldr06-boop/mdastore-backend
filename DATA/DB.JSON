@@ -1,0 +1,545 @@
+{
+  "users": [
+    {
+      "id": "u-001",
+      "name": "Admin NexusGaming",
+      "email": "admin@mdastoregaming.es",
+      "password": "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy",
+      "role": "admin",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "4c31dbf9-5ece-43b0-81bd-52c9d8f8a074",
+      "name": "sulii",
+      "email": "sauldr06@gmail.com",
+      "password": "$2a$10$fXKFirboTfAJt23NouqE8eZA9TdsU5jt3WoIkJWkCNB3qCypAuI4S",
+      "role": "user",
+      "createdAt": "2026-05-05T22:36:11.082Z"
+    },
+    {
+      "id": "4893d3f3-75d7-477f-af10-59793409c49e",
+      "name": "saulito",
+      "email": "grafikstudio2025@gmail.com",
+      "password": "$2a$10$aEy61dx9mg5P.Y7M68KE5eTJ8bV261LoGClnV7MRR/pGOF.N2YdB6",
+      "role": "user",
+      "createdAt": "2026-05-05T22:46:58.481Z"
+    },
+    {
+      "id": "61a3d2dc-7295-4cec-8cc6-dc31fcc29725",
+      "name": "saull",
+      "email": "fifelexul@gmail.com",
+      "password": "$2a$10$J4usbdTaoBHsUhJxdFMb2uYMsLItjRI66ciWuJQmqN7ia/KUwpbo2",
+      "role": "user",
+      "createdAt": "2026-05-05T22:55:04.707Z"
+    },
+    {
+      "id": "dff4fcc8-6524-44e5-8faa-22ecd0564c6e",
+      "name": "iued8ye3",
+      "email": "sauldiazroldan45@gmail.com",
+      "password": "$2a$10$4UZ4aXnbRF7QsMLcabtVFecTCV3cIM5O0SbR7FUnc81Eb0SkJ0Go.",
+      "role": "user",
+      "createdAt": "2026-05-05T23:00:28.612Z"
+    },
+    {
+      "id": "f5300543-5783-4958-af7c-e5718899e681",
+      "name": "saulito",
+      "email": "saul.diaz6@educa.madrid.org",
+      "password": "$2a$10$PZ6U8bu/1Xf.bPJQihFw9O4s47rvHMxAWusNTe4jWnioF.1DL9xwu",
+      "role": "user",
+      "createdAt": "2026-05-05T23:03:42.087Z"
+    },
+    {
+      "id": "196d9c88-9676-4e60-97c9-16d0365777ea",
+      "name": "JIUE",
+      "email": "diazroldansaul@gmail.com",
+      "password": "$2a$10$WL3S//MWnixhXI0kiCZm6u/vAuhoFE0ttFYI5.5XRkWEvUQZUAZTC",
+      "role": "user",
+      "createdAt": "2026-05-05T23:13:34.393Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Cyber Protocol X",
+      "category": "videojuegos",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=300&fit=crop&auto=format",
+      "price": 59.99,
+      "oldPrice": 69.99,
+      "stock": 42,
+      "description": "RPG de ciencia ficción con mundo abierto y más de 100 horas de contenido.",
+      "rating": 4.8,
+      "reviews": 2341
+    },
+    {
+      "id": 2,
+      "name": "Shadow Realms 2",
+      "category": "videojuegos",
+      "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=400&h=300&fit=crop&auto=format",
+      "price": 49.99,
+      "oldPrice": null,
+      "stock": 30,
+      "description": "Acción roguelite en mazmorras procedurales con multijugador cooperativo.",
+      "rating": 4.6,
+      "reviews": 1875
+    },
+    {
+      "id": 3,
+      "name": "Apex Racing GT",
+      "category": "videojuegos",
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=300&fit=crop&auto=format",
+      "price": 44.99,
+      "oldPrice": 59.99,
+      "stock": 18,
+      "description": "Simulador de carreras ultrarrealista con 50 circuitos y modo online.",
+      "rating": 4.5,
+      "reviews": 987
+    },
+    {
+      "id": 4,
+      "name": "Galaxy Conquest",
+      "category": "videojuegos",
+      "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=400&h=300&fit=crop&auto=format",
+      "price": 54.99,
+      "oldPrice": null,
+      "stock": 25,
+      "description": "Estrategia en tiempo real en el espacio. Conquista galaxias enteras.",
+      "rating": 4.7,
+      "reviews": 1234
+    },
+    {
+      "id": 5,
+      "name": "HexBoard Pro RGB",
+      "category": "teclados",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=300&fit=crop&auto=format",
+      "price": 149.99,
+      "oldPrice": 179.99,
+      "stock": 15,
+      "description": "Teclado mecánico TKL con switches Cherry MX Red e iluminación RGB por tecla.",
+      "rating": 4.9,
+      "reviews": 3201
+    },
+    {
+      "id": 6,
+      "name": "StealthKey 60%",
+      "category": "teclados",
+      "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=400&h=300&fit=crop&auto=format",
+      "price": 89.99,
+      "oldPrice": null,
+      "stock": 22,
+      "description": "Formato 60% ultra-compacto, switches táctiles, conexión dual inalámbrica/USB.",
+      "rating": 4.7,
+      "reviews": 892
+    },
+    {
+      "id": 7,
+      "name": "NexBoard OLED",
+      "category": "teclados",
+      "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&h=300&fit=crop&auto=format",
+      "price": 219.99,
+      "oldPrice": 249.99,
+      "stock": 7,
+      "description": "Teclado premium con pantalla OLED integrada y perfiles de macro avanzados.",
+      "rating": 4.8,
+      "reviews": 556
+    },
+    {
+      "id": 8,
+      "name": "Viper X Elite",
+      "category": "ratones",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop&auto=format",
+      "price": 79.99,
+      "oldPrice": 99.99,
+      "stock": 34,
+      "description": "Ratón gaming 26.000 DPI, 8 botones programables y carga inalámbrica.",
+      "rating": 4.9,
+      "reviews": 4512
+    },
+    {
+      "id": 9,
+      "name": "GlideHunter Wireless",
+      "category": "ratones",
+      "image": "https://images.unsplash.com/photo-1615869442320-fd02a129c77c?w=400&h=300&fit=crop&auto=format",
+      "price": 59.99,
+      "oldPrice": null,
+      "stock": 27,
+      "description": "Sensor óptico de última generación, autonomía 80h y peso ultraligero (68g).",
+      "rating": 4.7,
+      "reviews": 2109
+    },
+    {
+      "id": 10,
+      "name": "Precision Core Pro",
+      "category": "ratones",
+      "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=400&h=300&fit=crop&auto=format",
+      "price": 49.99,
+      "oldPrice": 64.99,
+      "stock": 38,
+      "description": "Ratón con cable trenzado, 6 niveles DPI y iluminación por zonas.",
+      "rating": 4.5,
+      "reviews": 1543
+    },
+    {
+      "id": 11,
+      "name": "SoundForge 7.1 Pro",
+      "category": "auriculares",
+      "image": "https://images.unsplash.com/photo-1618609377864-68609b857e90?w=400&h=300&fit=crop&auto=format",
+      "price": 129.99,
+      "oldPrice": 159.99,
+      "stock": 8,
+      "description": "Sonido envolvente 7.1 virtual, micrófono con cancelación de ruido, inalámbrico.",
+      "rating": 4.8,
+      "reviews": 2874
+    },
+    {
+      "id": 12,
+      "name": "NexAudio Studio",
+      "category": "auriculares",
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=300&fit=crop&auto=format",
+      "price": 89.99,
+      "oldPrice": null,
+      "stock": 17,
+      "description": "Drivers de 50mm, diadema acolchada de memoria y cable trenzado extraíble.",
+      "rating": 4.6,
+      "reviews": 1102
+    },
+    {
+      "id": 13,
+      "name": "ZeroLag True Wireless",
+      "category": "auriculares",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=300&fit=crop&auto=format",
+      "price": 109.99,
+      "oldPrice": 139.99,
+      "stock": 8,
+      "description": "TWS gaming de baja latencia (<40ms), carga inalámbrica y ANC activo.",
+      "rating": 4.7,
+      "reviews": 789
+    },
+    {
+      "id": 14,
+      "name": "ThroneChair Elite X",
+      "category": "sillas",
+      "image": "https://images.unsplash.com/photo-1593640408182-31c228b29b46?w=400&h=300&fit=crop&auto=format",
+      "price": 379.99,
+      "oldPrice": 449.99,
+      "stock": 4,
+      "description": "Silla gaming con apoyo lumbar ajustable, reposabrazos 4D y reclinación 180°.",
+      "rating": 4.9,
+      "reviews": 1567
+    },
+    {
+      "id": 15,
+      "name": "ErgoRace Carbon",
+      "category": "sillas",
+      "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop&auto=format",
+      "price": 279.99,
+      "oldPrice": null,
+      "stock": 10,
+      "description": "Diseño ergonómico con malla transpirable, base de aluminio y ruedas silenciosas.",
+      "rating": 4.7,
+      "reviews": 934
+    },
+    {
+      "id": 16,
+      "name": "HyperView 27\" 165Hz",
+      "category": "monitores",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop&auto=format",
+      "price": 329.99,
+      "oldPrice": 399.99,
+      "stock": 13,
+      "description": "Panel IPS 2K, 165Hz, 1ms, compatible con G-Sync y FreeSync Premium.",
+      "rating": 4.8,
+      "reviews": 2103
+    },
+    {
+      "id": 17,
+      "name": "UltraWide 34\" Curved",
+      "category": "monitores",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=400&h=300&fit=crop&auto=format",
+      "price": 549.99,
+      "oldPrice": 649.99,
+      "stock": 4,
+      "description": "Pantalla curva 34\" ultrawide 21:9, 144Hz, HDR400 y 10bits de color.",
+      "rating": 4.9,
+      "reviews": 876
+    },
+    {
+      "id": 18,
+      "name": "PortaScreen 240Hz",
+      "category": "monitores",
+      "image": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=400&h=300&fit=crop&auto=format",
+      "price": 449.99,
+      "oldPrice": null,
+      "stock": 19,
+      "description": "Monitor gaming 24\" Full HD, 240Hz, 0.5ms ideal para FPS competitivo.",
+      "rating": 4.8,
+      "reviews": 1432
+    }
+  ],
+  "orders": [
+    {
+      "id": "NX-5352F503",
+      "userId": "f5300543-5783-4958-af7c-e5718899e681",
+      "userName": "saulito",
+      "userEmail": "saul.diaz6@educa.madrid.org",
+      "items": [
+        {
+          "productId": 7,
+          "name": "NexBoard OLED",
+          "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 219.99,
+          "qty": 1,
+          "lineTotal": 219.99
+        },
+        {
+          "productId": 8,
+          "name": "Viper X Elite",
+          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 79.99,
+          "qty": 1,
+          "lineTotal": 79.99
+        },
+        {
+          "productId": 11,
+          "name": "SoundForge 7.1 Pro",
+          "image": "https://images.unsplash.com/photo-1618609377864-68609b857e90?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 129.99,
+          "qty": 1,
+          "lineTotal": 129.99
+        },
+        {
+          "productId": 10,
+          "name": "Precision Core Pro",
+          "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 49.99,
+          "qty": 1,
+          "lineTotal": 49.99
+        }
+      ],
+      "subtotal": 479.96,
+      "shipping": 0,
+      "total": 479.96,
+      "shippingAddress": null,
+      "status": "pending",
+      "createdAt": "2026-05-05T23:06:24.171Z",
+      "updatedAt": "2026-05-05T23:06:24.171Z"
+    },
+    {
+      "id": "NX-710A5604",
+      "userId": "f5300543-5783-4958-af7c-e5718899e681",
+      "userName": "saulito",
+      "userEmail": "saul.diaz6@educa.madrid.org",
+      "items": [
+        {
+          "productId": 11,
+          "name": "SoundForge 7.1 Pro",
+          "image": "https://images.unsplash.com/photo-1618609377864-68609b857e90?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 129.99,
+          "qty": 1,
+          "lineTotal": 129.99
+        },
+        {
+          "productId": 12,
+          "name": "NexAudio Studio",
+          "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 89.99,
+          "qty": 1,
+          "lineTotal": 89.99
+        }
+      ],
+      "subtotal": 219.98,
+      "shipping": 0,
+      "total": 219.98,
+      "shippingAddress": null,
+      "status": "pending",
+      "createdAt": "2026-05-05T23:06:37.632Z",
+      "updatedAt": "2026-05-05T23:06:37.632Z"
+    },
+    {
+      "id": "NX-A38AA32B",
+      "userId": "196d9c88-9676-4e60-97c9-16d0365777ea",
+      "userName": "JIUE",
+      "userEmail": "diazroldansaul@gmail.com",
+      "items": [
+        {
+          "productId": 14,
+          "name": "ThroneChair Elite X",
+          "image": "https://images.unsplash.com/photo-1593640408182-31c228b29b46?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 379.99,
+          "qty": 1,
+          "lineTotal": 379.99
+        },
+        {
+          "productId": 13,
+          "name": "ZeroLag True Wireless",
+          "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 109.99,
+          "qty": 1,
+          "lineTotal": 109.99
+        },
+        {
+          "productId": 17,
+          "name": "UltraWide 34\" Curved",
+          "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 549.99,
+          "qty": 1,
+          "lineTotal": 549.99
+        }
+      ],
+      "subtotal": 1039.97,
+      "shipping": 0,
+      "total": 1039.97,
+      "shippingAddress": null,
+      "status": "pending",
+      "createdAt": "2026-05-05T23:17:55.336Z",
+      "updatedAt": "2026-05-05T23:17:55.336Z"
+    },
+    {
+      "id": "NX-F93AF193",
+      "userId": "196d9c88-9676-4e60-97c9-16d0365777ea",
+      "userName": "JIUE",
+      "userEmail": "diazroldansaul@gmail.com",
+      "items": [
+        {
+          "productId": 15,
+          "name": "ErgoRace Carbon",
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 279.99,
+          "qty": 1,
+          "lineTotal": 279.99
+        },
+        {
+          "productId": 16,
+          "name": "HyperView 27\" 165Hz",
+          "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 329.99,
+          "qty": 1,
+          "lineTotal": 329.99
+        }
+      ],
+      "subtotal": 609.98,
+      "shipping": 0,
+      "total": 609.98,
+      "shippingAddress": null,
+      "status": "pending",
+      "createdAt": "2026-05-05T23:33:25.644Z",
+      "updatedAt": "2026-05-05T23:33:25.644Z"
+    },
+    {
+      "id": "NX-3C1B5FD6",
+      "userId": "196d9c88-9676-4e60-97c9-16d0365777ea",
+      "userName": "JIUE",
+      "userEmail": "diazroldansaul@gmail.com",
+      "items": [
+        {
+          "productId": 14,
+          "name": "ThroneChair Elite X",
+          "image": "https://images.unsplash.com/photo-1593640408182-31c228b29b46?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 379.99,
+          "qty": 1,
+          "lineTotal": 379.99
+        }
+      ],
+      "subtotal": 379.99,
+      "shipping": 0,
+      "total": 379.99,
+      "shippingAddress": null,
+      "status": "pending",
+      "createdAt": "2026-05-05T23:40:59.574Z",
+      "updatedAt": "2026-05-05T23:40:59.574Z"
+    },
+    {
+      "id": "NX-39843FDB",
+      "userId": "196d9c88-9676-4e60-97c9-16d0365777ea",
+      "userName": "JIUE",
+      "userEmail": "diazroldansaul@gmail.com",
+      "items": [
+        {
+          "productId": 10,
+          "name": "Precision Core Pro",
+          "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 49.99,
+          "qty": 1,
+          "lineTotal": 49.99
+        },
+        {
+          "productId": 11,
+          "name": "SoundForge 7.1 Pro",
+          "image": "https://images.unsplash.com/photo-1618609377864-68609b857e90?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 129.99,
+          "qty": 1,
+          "lineTotal": 129.99
+        },
+        {
+          "productId": 9,
+          "name": "GlideHunter Wireless",
+          "image": "https://images.unsplash.com/photo-1615869442320-fd02a129c77c?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 59.99,
+          "qty": 1,
+          "lineTotal": 59.99
+        }
+      ],
+      "subtotal": 239.97,
+      "shipping": 0,
+      "total": 239.97,
+      "shippingAddress": null,
+      "status": "pending",
+      "createdAt": "2026-05-05T23:46:54.574Z",
+      "updatedAt": "2026-05-05T23:46:54.574Z"
+    },
+    {
+      "id": "NX-43DBD274",
+      "userId": "196d9c88-9676-4e60-97c9-16d0365777ea",
+      "userName": "JIUE",
+      "userEmail": "diazroldansaul@gmail.com",
+      "items": [
+        {
+          "productId": 11,
+          "name": "SoundForge 7.1 Pro",
+          "image": "https://images.unsplash.com/photo-1618609377864-68609b857e90?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 129.99,
+          "qty": 1,
+          "lineTotal": 129.99
+        },
+        {
+          "productId": 12,
+          "name": "NexAudio Studio",
+          "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 89.99,
+          "qty": 1,
+          "lineTotal": 89.99
+        }
+      ],
+      "subtotal": 219.98,
+      "shipping": 0,
+      "total": 219.98,
+      "shippingAddress": null,
+      "status": "pending",
+      "createdAt": "2026-05-05T23:48:31.237Z",
+      "updatedAt": "2026-05-05T23:48:31.237Z"
+    },
+    {
+      "id": "NX-E02D51D3",
+      "userId": "196d9c88-9676-4e60-97c9-16d0365777ea",
+      "userName": "JIUE",
+      "userEmail": "diazroldansaul@gmail.com",
+      "items": [
+        {
+          "productId": 12,
+          "name": "NexAudio Studio",
+          "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=300&fit=crop&auto=format",
+          "unitPrice": 89.99,
+          "qty": 1,
+          "lineTotal": 89.99
+        }
+      ],
+      "subtotal": 89.99,
+      "shipping": 0,
+      "total": 89.99,
+      "shippingAddress": null,
+      "status": "pending",
+      "createdAt": "2026-05-05T23:49:57.600Z",
+      "updatedAt": "2026-05-05T23:49:57.600Z"
+    }
+  ],
+  "contacts": []
+}
