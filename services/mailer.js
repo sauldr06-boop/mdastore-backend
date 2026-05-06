@@ -299,7 +299,7 @@ function buildWelcomeHTML(userName) {
             <td style="background:#0a0a12; padding:20px 40px; text-align:center;
                         border-top:1px solid rgba(255,255,255,0.06);">
               <p style="margin:0; font-size:12px; color:#4a4a6a;">
-                © 2026 NexusGaming ·
+                © 2026 MDAStore Gaming ·
                 <a href="mailto:soporte@mdastoregaming.es"
                    style="color:#00f5ff; text-decoration:none;">soporte@mdastoregaming.es</a>
               </p>
