@@ -52,4 +52,47 @@ router.post("/create-session", requireAuth, async (req, res) => {
   }
 });
 
+/* ─── POST /api/payment/webhook ─────────────────────── */
+router.post("/webhook", express.raw({ type: "application/json" }), async (req, res) => {
+  const sig     = req.headers["stripe-signature"];
+  const secret  = process.env.STRIPE_WEBHOOK_SECRET;
+
+  let event;
+  try {
+    event = stripe.webhooks.constructEvent(req.body, sig, secret);
+  } catch (err) {
+    console.error("❌ Webhook error:", err.message);
+    return res.status(400).send(`Webhook Error: ${err.message}`);
+  }
+
+  // Cuando el pago se completa correctamente
+  if (event.type === "checkout.session.completed") {
+    const session = event.data.object;
+
+    console.log("✅ Pago completado:", session.id);
+
+    // Enviar email de confirmación
+    const { sendOrderConfirmation } = require("../services/mailer");
+
+    const order = {
+      id:       session.id.slice(-10).toUpperCase(),
+      items:    [],
+      subtotal: session.amount_subtotal / 100,
+      shipping: 0,
+      total:    session.amount_total / 100,
+    };
+
+    const toEmail  = session.customer_details?.email;
+    const userName = session.customer_details?.name || "Cliente";
+
+    if (toEmail) {
+      sendOrderConfirmation(order, toEmail, userName).catch((err) =>
+        console.warn("⚠️ Email no enviado:", err.message)
+      );
+    }
+  }
+
+  res.json({ received: true });
+});
+
 module.exports = router;
