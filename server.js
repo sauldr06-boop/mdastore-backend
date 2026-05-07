@@ -20,10 +20,16 @@ const PORT = process.env.PORT || 3000;
 
 // ── Middlewares globales ───────────────────────────────
 app.use(cors({
-  origin:         process.env.CLIENT_ORIGIN || "*",
+  origin: [
+    "https://sauldr06-boop.github.io",
+    "https://sauldr06-boop.github.io/mdastore-frontend",
+    "http://127.0.0.1:5500",
+    "http://localhost:5500",
+  ],
   methods:        ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
