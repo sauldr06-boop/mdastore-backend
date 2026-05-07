@@ -40,8 +40,8 @@ router.post("/create-session", requireAuth, async (req, res) => {
       payment_method_types: ["card"],
       line_items:           lineItems,
       mode:                 "payment",
-      success_url: `${process.env.CLIENT_ORIGIN}/success.html?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url:  `${process.env.CLIENT_ORIGIN}/cancel.html`,
+     success_url: "https://sauldr06-boop.github.io/mdastore-frontend/success.html?session_id={CHECKOUT_SESSION_ID}",
+     cancel_url:  "https://sauldr06-boop.github.io/mdastore-frontend/cancel.html",
     });
 
     res.json({ success: true, url: session.url });
