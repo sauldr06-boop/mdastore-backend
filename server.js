@@ -12,6 +12,7 @@ const authRouter    = require("./routes/auth");
 const productsRouter= require("./routes/products");
 const ordersRouter  = require("./routes/orders");
 const contactRouter = require("./routes/contact");
+const paymentRouter = require("./routes/payment");
 const { verifyMailer } = require("./services/mailer");
 
 const app  = express();
@@ -41,6 +42,7 @@ app.use("/api/auth",     authRouter);
 app.use("/api/products", productsRouter);
 app.use("/api/orders",   ordersRouter);
 app.use("/api/contact",  contactRouter);
+app.use("/api/payment",  paymentRouter);
 
 app.get("/api/health", (_req, res) => {
   res.json({ success: true, status: "online", version: "1.0.0", time: new Date().toISOString() });
