@@ -48,7 +48,7 @@ router.get("/", (req, res) => {
     if (minPrice) products = products.filter((p) => p.price >= Number(minPrice));
     if (maxPrice) products = products.filter((p) => p.price <= Number(maxPrice));
 
-    // Ordenación
+    
     switch (sort) {
       case "price_asc":  products.sort((a, b) => a.price - b.price);   break;
       case "price_desc": products.sort((a, b) => b.price - a.price);   break;

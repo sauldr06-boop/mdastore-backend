@@ -13,7 +13,7 @@ const { requireAuth, requireAdmin } = require("../middleware/auth");
 
 const router = express.Router();
 
-/* ─── POST /api/contact ─────────────────────────────── */
+
 router.post("/", (req, res) => {
   try {
     const { name, email, subject, message } = req.body;

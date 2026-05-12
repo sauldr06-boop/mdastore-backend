@@ -15,7 +15,7 @@ const { sendWelcomeEmail }    = require("../services/mailer");
 
 const router = express.Router();
 
-/* ─── POST /api/auth/register ───────────────────────── */
+/* ─── POST ──── */
 router.post("/register", async (req, res) => {
   try {
     const { name, email, password } = req.body;
@@ -45,7 +45,7 @@ router.post("/register", async (req, res) => {
     db.users.push(newUser);
     writeDB(db);
 
-    // Enviar email de bienvenida (no bloqueante)
+    // Enviar email de bienvenida 
     sendWelcomeEmail(newUser.email, newUser.name).catch((err) =>
       console.warn("⚠️  Email de bienvenida no enviado:", err.message)
     );

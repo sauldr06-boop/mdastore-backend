@@ -22,7 +22,7 @@ router.post("/create-session", requireAuth, async (req, res) => {
       });
     }
 
-    // Construir los line_items para Stripe
+    // Construir los line items para Stripe
     const lineItems = items.map((item) => ({
       price_data: {
         currency: "eur",

@@ -15,12 +15,12 @@ const transporter = nodemailer.createTransport({
   auth: {
     user: process.env.BREVO_USER,
     pass: process.env.BREVO_PASS,
-    from: process.env.BREVO_FROM,   // ← línea nueva
+    from: process.env.BREVO_FROM,   
   },
 });
 /**
  * Verifica la conexión con Gmail al arrancar el servidor.
- * Imprime un mensaje en consola con el resultado.
+ 
  */
 async function verifyMailer() {
   try {
@@ -319,10 +319,10 @@ function buildWelcomeHTML(userName) {
 // ─────────────────────────────────────────────────────
 
 /**
- * Envía el email de confirmación de pedido al comprador.
+ * Envía el email de confirmación de pedido al clientee.
  * @param {Object} order     - Pedido completo
  * @param {string} toEmail   - Email del destinatario
- * @param {string} userName  - Nombre del comprador
+ * @param {string} userName  - Nombre del cliente
  */
 async function sendOrderConfirmation(order, toEmail, userName) {
   const mailOptions = {
